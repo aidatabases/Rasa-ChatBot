@@ -1,0 +1,61 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+# - intent: sentiments
+#   examples: |
+#     - search for [NarendraModi](emotions) sentiments
+#     - search for [Elonmusk](emotions) sentiments
+
+- intent: emotion_intent
+  examples: |
+    -  he was [emo](emotions) 
+    -  it was [emo](emotions) 
+    -  i am [emo](emotions) 
+    -  they were[emo](emotions) 
+    -  dissapointed [emo](emotions) 
+    -  sad [emo](emotions) 
+    -  happy [emo](emotions) 
+    -  crying [emo](emotions) 
+    -  weep[emo](emotions) 
+    -  shattered [emo](emotions) 
+    -  enjoy [emo](emotions) 
+    -  devastated [emo](emotions) 
+  
+    
+
+    
+
+   
+
+
+   
